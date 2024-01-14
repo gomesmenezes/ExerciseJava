@@ -5,20 +5,8 @@ public class DataMarket {
     public double price;
     public int quantity;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getPrice() {
         return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     public int getQuantity() {
@@ -31,12 +19,11 @@ public class DataMarket {
     }
 
     public void addProduct(int numberAdd) {
-        int quantity = getQuantity() + numberAdd;
-        this.quantity = quantity;
+        this.quantity += numberAdd;
     }
 
     public void removeProduct(int numberRemove) {
-        int quantity = getQuantity() - numberRemove;
-        this.quantity = quantity;
+        this.quantity -= numberRemove;
+
     } 
 }
