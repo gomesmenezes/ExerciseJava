@@ -1,6 +1,6 @@
 package poo.market.entities;
 
-public class DataMarket {
+public class Products {
     public String name;
     public double price;
     public int quantity;
