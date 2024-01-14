@@ -1,11 +1,11 @@
-package poo.rectangle.Application;
+package poo.rectangle.app;
 
 import java.util.Locale;
 import java.util.Scanner;
 
 import poo.rectangle.Entities.Rectangle;
 
-public class App {
+public class Application {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
