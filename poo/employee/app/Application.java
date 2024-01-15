@@ -2,7 +2,6 @@ package poo.employee.app;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 import poo.employee.finance.Employee;
 
 public class Application {
@@ -21,7 +20,7 @@ public class Application {
         System.out.println("Tax: ");
         employee.tax = sc.nextDouble();
 
-       System.out.printf("Employee: %s, $ %.2f\n", employee.name, employee.netSalary());
+       System.out.printf("Employee: %s, Net salary: $ %.2f\n", employee.name, employee.netSalary());
 
        System.out.println("Whinch percentage to increase salary: ");
        double porcentage = sc.nextDouble();
