@@ -29,9 +29,6 @@ public class Negatively {
                 System.out.println(vector[i]);
             }
         }
-
-
-
         sc.close();
     }
 }
